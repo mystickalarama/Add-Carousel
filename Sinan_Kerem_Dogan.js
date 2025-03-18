@@ -42,7 +42,7 @@
 
     const html = `
       <div class="carousel-box">
-      <div class="carousel-carousel-container">
+      <div class="carousel-container">
         <h2 class="carousel-title">You Might Also Like</h2>
         <div class="carousel-wrapper">
           <button class="carousel-prev">
@@ -80,16 +80,12 @@
 
   const buildCSS = () => {
     const css = `
-      * {
-        box-sizing: border-box;
-      }
-
       .carousel-box {
         display: flex;
         justify-content: center;
       }
 
-      .carousel-carousel-container {
+      .carousel-container {
         margin: 20px auto 0 auto;
         padding: 15px;
         background: #f9f9f9;
@@ -194,7 +190,7 @@
       }
 
       @media (max-width: 1024px) {
-      .carousel-carousel-container {
+      .carousel-container {
         width: 100%;
       }
 
