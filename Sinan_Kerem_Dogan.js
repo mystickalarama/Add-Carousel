@@ -42,7 +42,7 @@
 
     const html = `
       <div class="carousel-box">
-      <div class="carousel-carouselWrapper">
+      <div class="carousel-carousel-container">
         <h2 class="carousel-title">You Might Also Like</h2>
         <div class="carousel-wrapper">
           <button class="carousel-prev">
@@ -89,7 +89,7 @@
         justify-content: center;
       }
 
-      .carousel-carouselWrapper {
+      .carousel-carousel-container {
         margin: 20px auto 0 auto;
         padding: 15px;
         background: #f9f9f9;
@@ -194,7 +194,7 @@
       }
 
       @media (max-width: 1024px) {
-      .carousel-carouselWrapper {
+      .carousel-carousel-container {
         width: 100%;
       }
 
